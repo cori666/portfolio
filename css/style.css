@@ -10,18 +10,18 @@ header{width:100%; height:40px; z-index:100;padding-top:20px;padding-bottom: 20p
 #headerIn .inner{position: relative;}
 #headerIn p{width:60px;height:60px;position:absolute;right:2%;padding:10px;display: block;top:0}
 #headerIn p img{width:100%;}
-#headerIn .gnb{position:absolute; font-size:0.9rem;top:10px; left:27%;width:750px;font-family: 'Sarabun', sans-serif;color: #fff;font-weight: 500;transition: all 0.2s;padding-top:150px;background:#000;z-index: 999999;}
-#headerIn .gnb li{float:left; width:calc((100% - 20px)/4); text-align:center;}
-#headerIn .gnb li:hover a{color:#90deff;cursor: pointer;}
-#headerIn .gnb li:active a{color:#90deff;cursor: pointer;}
-#content .gnb{position:fixed;top:30%;right:5%; z-index: 2;}
-#content .gnb > li{position: relative;transition: all 0.3s 0s;color: #fff;right:-90%;text-decoration: underline;margin-bottom: 20px;} 
+#headerIn .gnb2{position:absolute; font-size:0.9rem;top:10px; left:27%;width:750px;font-family: 'Sarabun', sans-serif;color: #fff;font-weight: 500;transition: all 0.2s;padding-top:150px;z-index: 999999;}
+#headerIn .gnb2 li{float:left; width:calc((100% - 20px)/4); text-align:center;}
+#headerIn .gnb2 li:hover a{color:#90deff;cursor: pointer;}
+#headerIn .gnb2 li:active a{color:#90deff;cursor: pointer;}
+#content .gnb{position:fixed;top:30%;right:4%; z-index: 2;}
+#content .gnb > li{position: relative;transition: all 0.3s 0s;color: #fff;right:-90%;margin-bottom:7px; } 
 #content .gnb > li.on{opacity:1;} 
 #content .gnb > li.on a{opacity: 1;font-weight: 600;} 
 #content .gnb > li > a{font-size:0.8rem;display: block;height:30px;opacity:0.8; }
-#content .gnb > li > a:link{color:inherit;text-decoration: none;width:200px;}
+#content .gnb > li > a:link{width:200px;}
 #content .gnb> li:hover{color:#90deff;cursor: pointer;}
-.active a{color:#90deff;cursor: pointer;}
+.active a{color:#90deff;cursor: pointer;text-decoration:underline }
 
 #content{position: relative;top:300px}
 #content .page01{background:#fff;width: 86%;;position: relative;left:7%;border-bottom-right-radius:5%;border-bottom-left-radius:5%;}
@@ -83,7 +83,7 @@ header{width:100%; height:40px; z-index:100;padding-top:20px;padding-bottom: 20p
 .charts .chart:nth-child(4) circle{stroke:#E06E3C;stroke-dasharray:314;stroke-dashoffset:80; animation-name: line01;}
 .charts .chart:nth-child(5) circle{stroke:#0E6CBC;stroke-dasharray:314;stroke-dashoffset:150;animation-name: line02;}
 .charts .chart:nth-child(6) circle{stroke:#1D6B43;stroke-dasharray:314;stroke-dashoffset:80; animation-name: line01;}
-.ani {animation-duration: 10s; animation-fill-mode: forwards;}
+.ani {animation-duration: 3s; animation-fill-mode: forwards;}
 #cont2 .about .sklis > h2{display: inline-block;position: relative;left: 20%;margin-bottom: 70px;}
 #cont2 .about .sklis > h2 span{z-index:999999;position: relative;font-family:'Sarabun', sans-serif;font-size: 2rem;}
 #cont2 .about .sklis > h2::before{content: '';display: block;width:25px ;height:25px;background:#CFF1FF;position: absolute;bottom:0;left:-10% ;z-index: 1;}
@@ -181,7 +181,7 @@ color: rgba(255, 255, 255, 0.8);
 #fh5co-work .fh5co-project-item {
 display: block;
 max-width: 300px;
-height: auto;
+height: 300px;
 position: relative;
 top: 0;
 overflow: hidden;
