@@ -434,4 +434,16 @@
 		
 	});
 
-}());
+}()); //끝
+
+
+$(document).ready(function() {//실행틀 시작
+
+	var top = $(".gnb2 > li");
+	top.click(function(){
+		$(top).offset()
+
+		$("html,body").stop().animate({scrollTop:tt});
+		});//menu.click() 끝
+		
+});//실행틀 끝
