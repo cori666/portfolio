@@ -37,7 +37,7 @@ header{width:100%; height:40px; z-index:100;padding-top:20px;padding-bottom: 20p
 #cont2{background:#fff;height: 1000px;}
 #cont2 .one_name{height:50px;font-family:'Sarabun', sans-serif;margin-bottom:100px}
 #cont2  .name_text{margin-bottom:10px;font-size: 2rem;margin-left:20px}
-#cont2 .name_bar{width:190px;height: 3px; background:#F9B02A;margin: 0 0 50px 0;}
+#cont2 .name_bar{width:210px;height: 3px; background:#F9B02A;margin: 0 0 50px 0;}
 
 #cont2 .about_all{display: flex; margin: 0 auto 80px}
 
@@ -83,7 +83,7 @@ header{width:100%; height:40px; z-index:100;padding-top:20px;padding-bottom: 20p
 .charts .chart:nth-child(4) circle{stroke:#E06E3C;stroke-dasharray:314;stroke-dashoffset:80; animation-name: line01;}
 .charts .chart:nth-child(5) circle{stroke:#0E6CBC;stroke-dasharray:314;stroke-dashoffset:150;animation-name: line02;}
 .charts .chart:nth-child(6) circle{stroke:#1D6B43;stroke-dasharray:314;stroke-dashoffset:80; animation-name: line01;}
-.ani {animation-duration: 3s; animation-fill-mode: forwards;}
+.ani {animation-duration: 5s; animation-fill-mode: forwards;}
 #cont2 .about .sklis > h2{display: inline-block;position: relative;left: 20%;margin-bottom: 70px;}
 #cont2 .about .sklis > h2 span{z-index:999999;position: relative;font-family:'Sarabun', sans-serif;font-size: 2rem;}
 #cont2 .about .sklis > h2::before{content: '';display: block;width:25px ;height:25px;background:#CFF1FF;position: absolute;bottom:0;left:-10% ;z-index: 1;}
@@ -97,14 +97,15 @@ header{width:100%; height:40px; z-index:100;padding-top:20px;padding-bottom: 20p
 #cont2 .about_lic div p:nth-child(1){width:50px;height:50px;margin-bottom: 30px;margin-left:35%}
 #one .about_lic div img{width:100%;}
 
-#cont3{height:1700px;background: #fff;margin-bottom:200px;position: relative;padding-top:100px}
+#cont3{height:1700px;background: #fff;margin-bottom:200px;position: relative;padding-top:100px;;}
 #cont3 .one_name{height:50px;font-family:'Sarabun', sans-serif;margin-bottom:100px;padding-top:10px}
-#cont3  .name_text{margin-bottom:10px;font-size: 2rem;margin-left:20px}
-#cont3 .name_bar{width:195px;height: 3px; background:#F9B02A;margin: 0;}
+#cont3  .name_text{margin-bottom:10px;font-size: 2rem;margin-left:20px;z-index: 999999}
+#cont3 .one_name span{font-size: 0.9rem;margin-right:10px;}
+#cont3 .name_bar{width:200px;height: 3px; background:#F9B02A;margin: 0;}
 
 #cont3 .web_img01{width:500px;height: 380px;z-index: 999;}
 #cont3 .web_img01 img{box-shadow: 2px 2px 10px  rgb(0, 0, 0);}
-.main_back{background:url(../image/back02.png)no-repeat;background-size: cover;width:100%;height:500px;position: absolute;right:0;z-index: 1;bottom:-250px}
+.main_back{background:url(../image/back02.png)no-repeat;background-size: cover;width:100%;height:500px;position: absolute;right:0;z-index: 1;bottom:-160px}
 #cont3 .web_main{display: flex;position: relative;}
 #cont3 > div:nth-child(3){margin-bottom:80px}
 #cont3 .web_text01{width:calc(100% - 550px);text-align: right;position: relative; left: 3%; margin-right: 150px;margin-bottom:200px}
@@ -115,6 +116,17 @@ header{width:100%; height:40px; z-index:100;padding-top:20px;padding-bottom: 20p
 #cont3 .web_text01 > p:nth-child(1) img{width: 100%;}
 #cont3 .web_text01 .h2_color{background:#cff1ff;width: 380px;height: 3px;position: absolute; right: -1%;}
 #cont3 .web_text01 .text03{margin:0 auto;padding-top: 20px;}
+
+
+
+#cont3 .web_text03{width:calc(100% - 550px);text-align: right;position: relative; left: 3%; margin-right: 150px;margin-bottom:200px}
+#cont3 .web_text03 h2{padding-top:77px}
+#cont3 .web_text03 span{font-family:'Sarabun', sans-serif;}
+#cont3 .web_text03 p{font-size:1.1rem;max-width: 500px; margin: 0 0 10px auto}
+#cont3 .web_text03 > p:nth-child(1){width:130px;height:50px;position:absolute;right: 0;margin: 0;top:7% }
+#cont3 .web_text03 > p:nth-child(1) img{width: 100%;}
+#cont3 .web_text03 .h2_color{background:#cff1ff;width: 190px;height: 3px;position: absolute; right: -1%;}
+#cont3 .web_text03 .text03{margin:0 auto;padding-top: 20px;}
 
 
 #cont3 .web_main02 .web_img{width:500px;height: 380px;z-index: 999;margin-right:20px;}
@@ -134,7 +146,7 @@ header{width:100%; height:40px; z-index:100;padding-top:20px;padding-bottom: 20p
 
 #cont3 .web_more p{width:150px; line-height: 40px;background:#fff;border-radius: 30px;text-align:center;display: inline-block;font-size: 0.8rem;margin:4px;
 box-shadow: 3px 3px 6px #ddd;position: relative;cursor: pointer;}
-#cont3 .web_more p:hover{background:#CFF1FF}
+#cont3 .web_more p:nth-child(1):hover{background:#CFF1FF}
 #cont3 .web_more p a{z-index: 999999;width:150px;padding:15px 50px}
   
  
