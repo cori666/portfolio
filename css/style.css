@@ -97,15 +97,16 @@ header{width:100%; height:40px; z-index:100;padding-top:20px;padding-bottom: 20p
 #cont2 .about_lic div p:nth-child(1){width:50px;height:50px;margin-bottom: 30px;margin-left:35%}
 #one .about_lic div img{width:100%;}
 
-#cont3{height:1150px;background: #fff;margin-bottom:200px;position: relative;padding-top:100px}
+#cont3{height:1700px;background: #fff;margin-bottom:200px;position: relative;padding-top:100px}
 #cont3 .one_name{height:50px;font-family:'Sarabun', sans-serif;margin-bottom:100px;padding-top:10px}
 #cont3  .name_text{margin-bottom:10px;font-size: 2rem;margin-left:20px}
 #cont3 .name_bar{width:195px;height: 3px; background:#F9B02A;margin: 0;}
 
 #cont3 .web_img01{width:500px;height: 380px;z-index: 999;}
 #cont3 .web_img01 img{box-shadow: 2px 2px 10px  rgb(0, 0, 0);}
-.main_back{background:url(../image/back02.png)no-repeat;background-size: cover;width:100%;height:500px;position: absolute;right:0;z-index: 1;bottom:-200px}
+.main_back{background:url(../image/back02.png)no-repeat;background-size: cover;width:100%;height:500px;position: absolute;right:0;z-index: 1;bottom:-250px}
 #cont3 .web_main{display: flex;position: relative;}
+#cont3 > div:nth-child(3){margin-bottom:80px}
 #cont3 .web_text01{width:calc(100% - 550px);text-align: right;position: relative; left: 3%; margin-right: 150px;margin-bottom:200px}
 #cont3 .web_text01 h2{padding-top:77px}
 #cont3 .web_text01 span{font-family:'Sarabun', sans-serif;}
