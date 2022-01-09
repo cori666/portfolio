@@ -83,7 +83,7 @@ header{width:100%; height:40px; z-index:100;padding-top:20px;padding-bottom: 20p
 .charts .chart:nth-child(4) circle{stroke:#E06E3C;stroke-dasharray:314;stroke-dashoffset:80; animation-name: line01;}
 .charts .chart:nth-child(5) circle{stroke:#0E6CBC;stroke-dasharray:314;stroke-dashoffset:150;animation-name: line02;}
 .charts .chart:nth-child(6) circle{stroke:#1D6B43;stroke-dasharray:314;stroke-dashoffset:80; animation-name: line01;}
-.ani {animation-duration: 5s; animation-fill-mode: forwards;}
+.ani {animation-duration: 10s; animation-fill-mode: forwards;}
 #cont2 .about .sklis > h2{display: inline-block;position: relative;left: 20%;margin-bottom: 70px;}
 #cont2 .about .sklis > h2 span{z-index:999999;position: relative;font-family:'Sarabun', sans-serif;font-size: 2rem;}
 #cont2 .about .sklis > h2::before{content: '';display: block;width:25px ;height:25px;background:#CFF1FF;position: absolute;bottom:0;left:-10% ;z-index: 1;}
