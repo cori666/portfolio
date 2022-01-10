@@ -15,7 +15,7 @@
           });//menu.click() 끝
           
 
-          var about_pos = $('.one_name').offset().top;  //스킬 애니메이션
+          var about_pos = $('.about_all').offset().top;  //스킬 애니메이션
 
       $(window).scroll(function(){
           var location = $(window).scrollTop()+100;        

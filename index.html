@@ -24,6 +24,8 @@
   <script src="js/magnific-popup-options.js"></script>
   <!-- Main JS (Do not remove) -->
   <script src="js/main.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -51,13 +53,14 @@
 	<p class="page03"></p>
 	<p class="page02"></p>
 	<div class="page01">
- <div id="cont1">
+ <div id="cont1" >
 	<div class="hello_text">
    <p>안녕하세요,</p> 
  <p>마음속에 <span>스며드는</span><br>
  디자이너 <span>김소희</span>입니다.</p></div>
  </div> <!--#cont1-->
-    <div id="cont2">
+    <div id="cont2" data-aos="fade-up"
+	data-aos-duration="3000">
 			<div class="one_name">
 				<p class="name_text">ABOUT ME</p>
 				<p class="name_bar"></p>
@@ -123,22 +126,22 @@
 			<p class="name_text"><span>PORTFOLIO</span> WEB</p>
 			<p class="name_bar"></p></div>
 			<div class="web_main">
-				<div class="web_text01">
-					<p><img src="image/daon.png" alt="daon"></p>
-					<h2><span>DAON</span>:유기동물보호센터</h2>
+				<div class="web_text03">
+					<p><img src="image/logo.png" alt="logo"></p>
+					<h2><span>KYOCHON</span></h2>
 				     <p class="h2_color"></p>
 					
 					<div class="text03">
 					<p>기여도 : 100%</p>
-					<p>유기동물 보호소를 새롭게 만들어보았습니다. 실종동물에 대한 게시글을 
-						올리고 다양한 보호소들의 캠페인 후원등을 안내하는 홈페이지 입니다.
+					<p> 치킨 브랜드인 교촌치킨 홈페이지를 리뉴얼 하였습니다.<br>
+						반응형 홈페이지로 제작하였습니다.
 					</p>
 					<div class="web_more">
-					<p><a href="http://daon.dothome.co.kr/" target="_blank">PAGE</a></p>
-				<p><a href="image/daon-1.png" class="fh5co-project-item image-popup to-animate">
+					<p><a href="https://cori666.github.io/new/" target="_blank">PAGE</a></p>
+				<p><a href="image/kyo01.png" class="fh5co-project-item image-popup to-animate">
 						DETAIL</a></p></div>
 				</div></div>
-						<p class="web_img01"><img src="image/daon01.png" alt="imax"></p>
+						<p class="web_img01"><img src="image/imax.png" alt="imax"></p>
 				
 				</div>
 				<div class="web_main02">
@@ -157,6 +160,28 @@
 							<p><a href="image/cafe24-2.png" class="fh5co-project-item image-popup to-animate">
 								DETAIL</a></p></div> <!--.web_more-->
 					</div></div> <!--.web_text/.web_main02-->
+
+					<div class="web_main">
+						<div class="web_text01">
+							<p><img src="image/daon.png" alt="daon"></p>
+							<h2><span>DAON</span>:유기동물보호센터</h2>
+							 <p class="h2_color"></p>
+							
+							<div class="text03">
+							<p>기여도 : 100%</p>
+							<p>유기동물 보호소를 새롭게 만들어보았습니다. 실종동물에 대한 게시글을 
+								올리고 다양한 보호소들의 캠페인 후원등을 안내하는 홈페이지 입니다.
+							</p>
+							<div class="web_more">
+							<p><a href="http://daon.dothome.co.kr/" target="_blank">PAGE</a></p>
+						<p><a href="image/daon-1.png" class="fh5co-project-item image-popup to-animate">
+								DETAIL</a></p></div>
+						</div></div>
+								<p class="web_img01"><img src="image/daon01.png" alt="imax"></p>
+						
+						</div>
+
+
 					<p class="main_back"></p>
     </div><!--#cont3-->
     <div id="cont4">
@@ -254,5 +279,9 @@
 	</div>
   </div><!--#content-->
 </div><!--#wrap-->
+<script src="dist/aos.js"></script>
+<script>
+  if (!window.Cypress) AOS.init();
+</script>
 </body>
 </html>
