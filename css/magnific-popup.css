@@ -203,7 +203,8 @@ button::-moz-focus-inner {
     top:500px;
     left:300px;
     border-right: 27px solid #fff; }
-
+    @media screen and (max-width: 1250px){
+      .mfp-arrow-left:before, .mfp-arrow-left .mfp-b{left: 0;} }
 .mfp-arrow-right {
   right: 0; }
  
@@ -212,6 +213,8 @@ button::-moz-focus-inner {
     position: fixed;
     top:500px;
     left:1550px; }
+    @media screen and (max-width: 1250px){
+      .mfp-arrow-right:before, .mfp-arrow-right .mfp-b{left:91%} }
 
 .mfp-iframe-holder {
   padding-top: 40px;

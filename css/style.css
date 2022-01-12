@@ -54,6 +54,7 @@ margin-bottom: 100px;}
 @media screen and (max-width: 1250px){
   #cont1{height:550px;}
   #cont1 .hello_text{top:16%}
+  
 }
 
 
@@ -119,7 +120,7 @@ margin-bottom: 100px;}
 @media screen and (max-width: 1250px){
   #cont1{height:auto}
   #cont1 .hello_text{top:0}
-  #cont1 .hello_text02{left:30%;font-size: 2rem;}
+  #cont1 .hello_text02{margin:0 auto;font-size: 1.8rem;max-width: 400px;}
   #cont1 .hello_text02 p:nth-child(1){font-size: 1.3rem;}
   #cont2 .about .sklis > h2{left: 5; margin-bottom: 50px;}
   #cont2 .about_all .about_text p{margin-bottom:10px;position: relative;margin-right:9%;max-width: 481px;line-height: 2.5rem;}
