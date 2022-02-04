@@ -201,7 +201,7 @@ button::-moz-focus-inner {
   .mfp-arrow-left:before, .mfp-arrow-left .mfp-b {
     position: fixed;
     top:500px;
-    left:300px;
+    left:10%;
     border-right: 27px solid #fff; }
     @media screen and (max-width: 1250px){
       .mfp-arrow-left:before, .mfp-arrow-left .mfp-b{left: 0;} }
@@ -212,7 +212,7 @@ button::-moz-focus-inner {
     border-left: 27px solid #fff;
     position: fixed;
     top:500px;
-    left:1550px; }
+    left:85%; }
     @media screen and (max-width: 1250px){
       .mfp-arrow-right:before, .mfp-arrow-right .mfp-b{left:91%} }
 
