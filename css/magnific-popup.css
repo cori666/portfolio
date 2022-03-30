@@ -48,7 +48,7 @@
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: 1045; }
+  z-index: 99999; }
 
 .mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
   width: 100%;
@@ -244,7 +244,7 @@ button::-moz-focus-inner {
 /* Main image in popup */
 img.mfp-img {
   width: auto;
-  max-height: 100% !important ;
+  max-height:100% !important ;
   display: block;
   line-height: 0;
   -webkit-box-sizing: border-box;
