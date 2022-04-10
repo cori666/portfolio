@@ -143,7 +143,7 @@ margin-bottom: 100px;border-bottom-left-radius:80px;border-bottom-right-radius:8
 .chart02{ display: flex;}
 .charts .chart{ position: relative; margin-right: 50px;}
 .charts .chart p{margin-left: 17px;margin-bottom:40px;}
-.charts .chart h2{position: absolute; left: 50%;top:65%;transform: translate(-60% , -60% );margin: 0;font-size: 0.8rem;}
+.charts .chart h2{position: absolute; left: 50%;top:55%;transform: translate(-60% , -60% );margin: 0;font-size: 0.8rem;}
 .charts .chart svg{max-width: 120px;max-height: 120px;}
 .charts .chart circle{fill:#fff;stroke-width:7; 
   transform: rotate(-90deg); transform-origin: 50% 50%;stroke-linecap: round;
@@ -205,11 +205,11 @@ margin-bottom: 100px;border-bottom-left-radius:80px;border-bottom-right-radius:8
   .charts .chart circle{fill:#fff;stroke-width:7; 
     transform: rotate(-90deg); transform-origin: 50% 50%;stroke-linecap: round;}
     #cont2 .about_all .about_text ul{display: block;line-height: 50px;margin-bottom:0} 
-    .charts{max-width: 95%;} }
+    .charts{max-width: 95%;} 
+ 
+  }
 
-/*
-#cont1 .hello_text02 p:last-child{font-size: 1.5rem;}
- #cont1 .hello_text02{top:8%} */
+
 
 @media screen and (max-width: 1099px) and (min-width:850px){
   #cont1 .hello_text02{left:32%;font-size: 2rem;}
@@ -220,6 +220,7 @@ margin-bottom: 100px;border-bottom-left-radius:80px;border-bottom-right-radius:8
   .charts .chart p{font-size: 1rem;}
   .chart01{margin-bottom: 100px;}
   .charts{max-width: 90%;display: block;margin: 0 auto;padding-left:10%}
+  .charts .chart02 .chart h2{top:66%} 
 }
 
 
@@ -234,33 +235,69 @@ margin-bottom: 100px;border-bottom-left-radius:80px;border-bottom-right-radius:8
   .charts .chart p{font-size: 1rem;}
   .chart01{margin-bottom:50px;}
   .charts{max-width: 90%;display: block;margin: 0 20px;}
-  #cont2 .about_all .about_text > p:first-child{text-align: center;margin:0 0 0 11% }
+  #cont2 .about_all .about_text > p:first-child{text-align: center;margin:0 5% 0 9%;font-size: 0.8rem;line-height: 2rem;}
+  #cont2 .about_all .about_text p .red{font-size: 1rem;}
+  #cont2 .about_all .about_text p span{font-size: 1rem;}
   #cont2 .about_all .about_text h2{margin-left: 5%;}
   #cont2 .about_all .about_text ul{margin-left: 5%;}
   .sklis h2{margin-left:-2%}
+  #cont2 .name_text{font-size:1.5rem}
+  #cont2 .name_bar{width: 150px;}
+  #cont1 .hello_text02 p:last-child{font-size: 1.3rem;}
+  #cont2 .about_all .about_text{max-width:100%;}
+  .charts .chart02 .chart h2{top:66%} 
+  #cont2 .about .sklis > h2 span{font-size: 1.5rem;}
+  #cont2 .about .sklis > h2{margin-bottom: 30px;}
+  #cont2 .about_all .about_text h2 span{font-size: 1.5rem;}
+  #cont2 .about_all .about_text h2{left:3.6%;}
 }
 
 
+@media screen and (max-width: 650px){
+  .charts{margin: 0 0 0 -10%;}
 
-@media screen and (max-width: 699px) and (min-width:520px){
-  #cont1 .hello_text02{left:33%;font-size: 1.3rem;top:5%}
-  #cont1 .hello_text02 p:first-child{font-size: 0.9rem;}
+  
 }
 
 
+@media screen and (max-width: 550px){
+  #cont1 .hello_text02 p:last-child{font-size: 0.9rem; padding-bottom: 50px;}
+}
 
-@media screen and (max-width: 519px) and (min-width:400px){
-  #cont1 .hello_text02{left:35%;font-size: 1rem;top:5%}
-  #cont1 .hello_text02 p:first-child{font-size: 0.9rem;}
+@media screen and (max-width: 500px){
+.charts .chart .ani{display: none;}
+
+.charts .chart01{display:block;margin-bottom:0px;}
+.charts .chart01 .chart{display: flex;position: relative;margin-bottom: 20px;}
+.charts .chart01 .chart h2{top: 15%; margin-left: 30%;}
+.charts .chart01 .chart svg{display: none;}
+.charts .chart01 .chart .bar_01{width:200px;height: 20px;background: #08003B;position: absolute;top:35px;border-radius: 50px;}
+.charts .chart01 .chart .bar_02{width:180px;height: 20px;background: #FB7B1B;position: absolute;top:35px;border-radius: 50px;}
+.charts .chart01 .chart .bar_03{width:160px;height: 20px;background: #00B9E6;position: absolute;top:35px;border-radius: 50px;}
+.charts .chart02{display:block}
+.charts .chart02 .chart svg{display: none;}
+.charts .chart02 .chart{display: flex;position: relative;margin-bottom: 20px;}
+.charts .chart02 .chart h2{top: 15%; margin-left: 30%;}
+.charts .chart02 .chart .bar_01{width:160px;height: 20px;background: #08003B;position: absolute;top:35px;border-radius: 50px;}
+.charts .chart02 .chart .bar_02{width:120px;height: 20px;background: #FB7B1B;position: absolute;top:35px;border-radius: 50px;}
+.charts .chart02 .chart .bar_03{width:180px;height: 20px;background: #00B9E6;position: absolute;top:35px;border-radius: 50px;}
+.charts .chart p{font-weight:300;font-size: 0.8rem;}
+#cont2 .about_all .about_text ul{font-size: 0.7rem;line-height: 30px;left: 10%;}
+#cont2 .about_all{margin-bottom:40px;}
+#cont2 .one_name{margin-bottom:30px;}
+
 }
 
 
-
-
-@media screen and (max-width: 399px) and (min-width:200px){
-  #cont1 .hello_text02{left:33%;font-size: 0.85rem;top:4%}
-  #cont1 .hello_text02 p:first-child{font-size: 0.75rem;}
+@media screen and (max-width: 450px){
+  #cont1 .hello_text02 p:first-child{font-size: 0.5rem;}
 }
+@media screen and (max-width: 350px){
+  #cont1 .hello_text02 p:first-child{font-size: 0.5rem;}
+  #cont1 .hello_text02 p:last-child{font-size: 0.7rem; padding-bottom: 30px;}
+}
+
+
 
 
 
@@ -274,7 +311,7 @@ margin-bottom: 100px;border-bottom-left-radius:80px;border-bottom-right-radius:8
 
 #cont3 .web_img01{width:500px;height: 380px;z-index: 999;position: relative;right:0}
 #cont3 .web_img01 img{box-shadow: 2px 2px 10px  rgb(0, 0, 0);}
-.main_back{background:url(../image/back02.png)no-repeat;background-size: cover;width:100%;height:500px;position: absolute;right:0;z-index: 1;bottom:-160px}
+.main_back{background:url(../image/back02.png) no-repeat;background-size: cover;width:100%;height:500px;position: absolute;right:0;z-index: 1;bottom:-160px}
 #cont3 .web_main{display: flex;position: relative;z-index: 99;}
 #cont3 > div:nth-child(3){margin-bottom:80px}
 #cont3 .web_text01{width: calc(100% - 550px);;text-align: right;position: relative; left: 3%; margin-right: 150px;margin-bottom:200px}
@@ -336,7 +373,6 @@ box-shadow: 3px 3px 6px #ddd;position: relative;cursor: pointer;}
   #cont3 .web_main02 .web_text h2{font-size: 1.7rem;margin-top:-10px}
   #cont3 .web_main02 .web_text{margin-left: 6%;}
   #cont3 .web_main02 .h2_color{width:350px;}
-
   #cont3 .web_main02 .web_text > p:nth-child(5){width: 420px;font-size: 1rem;margin-right:20px;}
   #cont3 > div:nth-child(3){margin-bottom: 20px;}
   #cont3 .web_text01 .h2_color{width: 150px;}
